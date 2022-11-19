@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+.label-input{
+    font-family: 'Roboto', sans-serif;
+    color:#939393;
+    font-weight: 500;
+    font-size: 16px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#form-title{
+    color:#737373;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 27px;
+
+}
+
+label{
+    display: flex;
+    gap: 0.4rem;
+    flex-direction: column;
+}
+#footer-input-parcelas{
+    color:#d1d1d1;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="text"]{
+    padding: 8px;
+    width: 250px;
+    height: 25px;
+    border-radius: 4px;
+    border: 1px solid #eef2f3;
+}
+
+input:focus[type="text"]{
+    outline: none;
+    
+    border: 1px solid #b2d6f3;
+}
