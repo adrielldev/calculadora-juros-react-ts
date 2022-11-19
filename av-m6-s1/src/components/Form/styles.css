@@ -45,3 +45,22 @@ input:focus[type="text"]{
     
     border: 1px solid #b2d6f3;
 }
+
+#submit-button{
+    width: 50%;
+    border: 1px solid #b2d6f3;
+    background-color: #8bcbf4;
+    font-family: 'Roboto','sans-serif';
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    color:#215270;
+    height: 30px;
+    transition: 1s all;
+}
+
+#submit-button:hover{
+    background-color: #c3e4f8c4;
+    border: none;
+
+}

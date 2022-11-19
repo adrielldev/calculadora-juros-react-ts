@@ -42,7 +42,7 @@ export default function Form({setInfosObject}:any) {
         <span className='label-input'>Informe o percentual de MDR *</span>
         <input type="text" {...register("mdr")}></input>
       </label>
-      <input type='submit'/>
+      <input type='submit' id='submit-button' value='Enviar'/>
 
     </form>
   )
