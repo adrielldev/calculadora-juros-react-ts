@@ -2,20 +2,21 @@
 .label-input{
     font-family: 'Roboto', sans-serif;
     color:#939393;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 14px;
 }
 form{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    margin-bottom: 40px;
 }
 
 #form-title{
     color:#737373;
     font-weight: 700;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 27px;
+    font-size: 25px;
 
 }
 
@@ -36,6 +37,7 @@ input[type="text"]{
     height: 25px;
     border-radius: 4px;
     border: 1px solid #eef2f3;
+    color:black;
 }
 
 input:focus[type="text"]{
